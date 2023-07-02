@@ -1,0 +1,16 @@
+
+.gnavmenu{
+    list-style: none ;
+}
+.gnavmenuitem{
+    display: inline-block;
+    margin-left:25px;
+}
+.gnavmenuitem:last-child{
+    margin-right:25px;
+}
+@media screen and (max-width: 600px) {
+    .gnavmenu {
+        display: none ;
+    }
+}   

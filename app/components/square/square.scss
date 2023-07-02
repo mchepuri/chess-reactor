@@ -1,0 +1,61 @@
+@use '../styles/common_vars.scss' as common_vars;
+.sqaure_geo{
+    height: common_vars.$box_height_ld+vh;
+    width: common_vars.$box_width_ld+vw;
+    border: 1px;
+    position: relative;
+}
+.last_column_square {
+    top : -20px;
+}
+.dark{
+    background-color: #8CA2AD
+}
+.light{
+    background-color:#DEE3E6
+}
+.piece_img_geo {
+    height: common_vars.$piece_img_height_ld+vh;
+    width: common_vars.$piece_img_width_ld+vw;
+}
+.squarelabelw{
+    position: relative;
+    right : -5vw;
+    top: 0;
+}
+.squarelabelt{
+    position: relative;
+    right : -0.1vw;
+    top: 6vh;
+}
+// Medium
+@media (max-width: 1024px) {
+    .sqaure_geo{
+        height: common_vars.$box_height_md+vh;
+        width: common_vars.$box_width_md+vw;
+        border: 5px;
+    }
+    .dark{
+        background-color: #a3166d
+    }    
+}
+//Small device - Mobile
+@media (max-width: 390px) {
+    .sqaure_geo{
+        height: common_vars.$box_height_sd+vw;
+        width: common_vars.$box_width_sd+vw;
+        border: 5px;
+    }
+    .dark{
+        background-color: #a4ad8c
+    }    
+}
+
+.selected_square{
+    position: absolute;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(21 204 13);
+    top: 10px;
+}

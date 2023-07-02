@@ -1,0 +1,20 @@
+.header .leftcell .hamburger {
+    display: none ;
+}
+@media screen and (max-width: 600px) {
+    .header .leftcell .hbcontainer{
+        height: 25px;
+        width: 24px;
+    }
+    .header .leftcell .hamburger {
+        display:inline-block;
+        width:2em;
+        /*height:2em;
+        font-size:24px;
+        color:inherit;
+        fill:currentColor*/
+    }
+    .header .leftcell{
+        text-align: start;
+    }
+  } 

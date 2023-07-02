@@ -1,0 +1,44 @@
+.main{
+    height: 80%;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.header{
+   display: flex;
+   padding: 10px 0px 10px 10px;
+}
+.leftcell{
+    flex-direction: column;
+    width:20%;
+    text-align: end;
+}
+.middlecell{
+    flex-direction: column;
+    width:50%;
+    text-align: end;
+}
+.rightcell{
+    flex-direction: column;
+    width:30%;
+    text-align: end;
+    /*border: 1px solid green;*/
+}
+
+.contentarea{
+    /*border: 1px solid red;*/
+    /*height: 85%;*/
+}
+.footer{
+    background: rgb(5, 89, 177);
+    height: 10%;
+    margin-bottom: 35px;
+}
+
+.idsection{
+    margin-right:25px;
+}
+@media screen and (max-width: 600px) {
+    .middlecell {
+        text-align: start;
+    }
+  }

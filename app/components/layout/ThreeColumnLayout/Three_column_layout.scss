@@ -1,0 +1,19 @@
+.layout_container{
+    display: flex;
+    border: 1px solid #269947;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.layout_column{
+    flex-direction: row;
+}
+.layout_column_left{
+    display: 20%;
+}
+.layout_column_right{
+    display: 20%;
+    margin-left: 10px;
+}
+.layout_column_center{
+    display: 60%;
+}

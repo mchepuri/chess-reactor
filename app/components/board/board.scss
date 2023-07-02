@@ -1,0 +1,6 @@
+@use '../styles/common_vars.scss' as common_vars;
+.board_container{
+display: flex;
+flex-wrap:  wrap;
+width:(common_vars.$box_width_ld*8)+vw;
+}
