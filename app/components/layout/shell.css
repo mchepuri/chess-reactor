@@ -1,16 +1,23 @@
 .main{
     height: 80%;
     width: 100%;
+    font-family: monospace;
     /*border: 1px solid black;*/
 }
 .header{
    display: flex;
    padding: 10px 0px 10px 10px;
+   background-color: #2863a1;
 }
 .leftcell{
-    flex-direction: column;
-    width:20%;
-    text-align: end;
+    /*flex-direction: column;*/
+    display : flex;
+    width:40%;
+    /*text-align: end;*/
+    align-items: center;
+    font-size: 1.4em;
+    color: #ffffff;
+    font-family: monospace;
 }
 .middlecell{
     flex-direction: column;
@@ -19,7 +26,7 @@
 }
 .rightcell{
     flex-direction: column;
-    width:30%;
+    width:10%;
     text-align: end;
     /*border: 1px solid green;*/
 }
@@ -29,7 +36,7 @@
     /*height: 85%;*/
 }
 .footer{
-    background: rgb(5, 89, 177);
+    background: #2863a1;
     height: 10%;
     margin-bottom: 35px;
 }

@@ -12,22 +12,32 @@ export const MoveTrail = () => {
     store.subscribe(()=>{
         setRefreshMovesPanel(moveTrail.refresh);
     });
+    
     const moves=moveTrail.map((move,index)=>
-       <li key={`trail-item${index}`}>
-            <div>
-                <span>
+       <li key={`trail-item${index}`} className={"moves_data"}>
+                <span className="moves_data_item">
                     {index}
                 </span>
-                <span>
+                <span  className="moves_data_item">
                     {move.from}
                 </span>
-                <span>
+                <span  className="moves_data_item">
                     {move.to}
                 </span>
-            </div>
         </li>
-);
+    );
+    moves.unshift(<li key={`trail-item--1}`} className={"moves_data-header"}>
+        <span className="moves_data_item">
+            #
+        </span>
+        <span  className="moves_data_item">
+                    From
+        </span>
+        <span  className="moves_data_item">
+                   To
+        </span>
+    </li>);
     console.log('moves',moves);
-    return(<div><ul>{moves}</ul></div>);
+    return(<ul className="moves_section">{moves}</ul>);
     //return(<div>Move Trail</div>);
 }

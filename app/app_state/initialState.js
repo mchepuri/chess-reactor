@@ -85,12 +85,6 @@ export const initialState = {
     },
     
     moveTrail : [
-        {"from":"e5","to":"g6"},
-        {"from":"d5","to":"j6"},
-        {"from":"h5","to":"s6"},
-        {"from":"g5","to":"s6"},
-        {"from":"a5","to":"h6"},
-        {"from":"e5","to":"g6"}
     ],
     game : new Chess.Game()
 }

@@ -3,7 +3,11 @@
   width: 100%;
 }
 .logo{
-  width:150px;
+  display:flex;
+  align-items: center;
+}
+.brand{
+  margin-left: 20px;
 }
 @media screen and (max-width: 600px) {
   .logo {

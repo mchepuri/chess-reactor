@@ -1,0 +1,31 @@
+.moves_section{
+    background-color: #DEE3E6;
+    list-style: none;
+    margin-left: 0px;
+    margin-right:20px;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.moves_data-header{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color:  #05597c;
+    color: #ffffff;
+    width:  25vw;
+    display: flex;
+}
+.moves_data{
+    color:#05749f;
+    width:  25vw;
+    display: flex;
+    padding-top: 10px;
+}
+.moves_data_item{
+    margin-left: 10px;
+    padding-right: 0px;
+    width: 50%;
+    font-family: monospace;
+}
+.from{
+   padding-left: 5px;
+}
